@@ -18,6 +18,16 @@ let sendMessageButton = document.getElementById("sendButton");
 let userName = "Max";
 
 sendMessageButton.addEventListener("click", function (e) {
+    sendMessage();
+});
+
+document.getElementById("inputMessage").addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+        sendMessage();
+    }
+});
+
+function sendMessage(){
     var currentdate = new Date(); 
     var datetime = currentdate.getDate() + "/"
                 + (currentdate.getMonth()+1)  + "/" 
@@ -41,12 +51,13 @@ sendMessageButton.addEventListener("click", function (e) {
 
     message.innerText = document.getElementById("inputMessage").value;
 
-    upVote.type = 'button'; upVote.textContent = '👍';
-    downVote.type = 'button'; downVote.textContent = '👎';
+    upVote.type = 'button'; upVote.textContent = '✅';
+    downVote.type = 'button'; downVote.textContent = '⛔';
+    upVote.classList.add("vote"); downVote.classList.add("vote");
 
     messageBox.appendChild(data);
     messageBox.appendChild(message);
     messageBox.appendChild(upVote);
     messageBox.appendChild(downVote);
     document.getElementById("chatBox").appendChild(messageBox);
-});
+}
