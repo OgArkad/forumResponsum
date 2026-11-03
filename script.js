@@ -34,12 +34,19 @@ sendMessageButton.addEventListener("click", function (e) {
 
     var data = document.createElement("p");
     var message = document.createElement("p");
+    var upVote = document.createElement("button");
+    var downVote = document.createElement("button");
 
     data.innerText = userName + " - " + datetime;
 
     message.innerText = document.getElementById("inputMessage").value;
 
+    upVote.type = 'button'; upVote.textContent = '👍';
+    downVote.type = 'button'; downVote.textContent = '👎';
+
     messageBox.appendChild(data);
     messageBox.appendChild(message);
+    messageBox.appendChild(upVote);
+    messageBox.appendChild(downVote);
     document.getElementById("chatBox").appendChild(messageBox);
 });

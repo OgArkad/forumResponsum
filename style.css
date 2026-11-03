@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: grey;
+    background-color: #C0C0C0;
 }
 
 #Title{
@@ -24,8 +24,12 @@ body{
     border: 3px solid #030303;
     border-radius: 30px;
 
-    margin-right: 30px;
+    margin-right: 1vw;
     background-color: #f5f5f5;
+}
+
+#chatBox{
+    width: 66vw;
 }
 
 #inputMessage{
@@ -72,17 +76,22 @@ body{
     padding-left: 15px;
 }
 
+#newsBox{
+    width: 31vw;
+}
+
 .message{
     border: 3px solid #030303;
     border-radius: 20px;
-    width: 24vw;
+    /*width: 55vw;*/
+    width: auto;
     height: auto;
-    margin: 0 auto;
+    margin: 15px;
     padding-left: 15px;
+    padding-right: 15px;
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 15px;
-    margin-left: 10px;
 }
 
 #channelsChat{
