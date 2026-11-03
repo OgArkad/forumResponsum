@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+#Title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+
+.boxName{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+
+.forumBox{
+    width: 30vw;
+    height: 85vh;
+
+    border: 3px solid #030303;
+    border-radius: 30px;
+
+    margin-right: 30px;
+    background-color: #f5f5f5;
+}
+
+#inputMessage{
+    width: 5vw;
+    height: 1vw;
+}
+
+#sendButton{
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 1vw;
+    width: 2vw;
+}
+
+#messagePanel{
+    position: absolute;
+    left: 17%;
+    bottom: 5vw;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+#boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.newsTitle{
+    font-weight: bolder;
+}
+
+.newsBlock{
+    border: 3px solid #030303;
+    border-radius: 20px;
+    width: 24vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.message{
+    border: 3px solid #030303;
+    border-radius: 20px;
+    width: 24vw;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 15px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+#channelsChat{
+    position: absolute;
+    left: 9%;
+    top: 6vw;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 5vw;
+    height: 2vh;
+    text-align: center;
+}

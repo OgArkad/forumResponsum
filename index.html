@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Responsum</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="Title">Forum Responsum</h1>
+    <div id="boxes">
+        <div id="chatBox" class="forumBox">
+            <p class="boxName">Chat</p>
+
+            <select name="channel" id="channelsChat">
+                <option value="general">General</option>
+                <option value="answers">Answers</option>
+                <option value="memes">Memes</option>
+                <option value="adminPanel">admin</option>
+            </select>
+
+            <div class="message" id="msg1">
+                
+            </div>
+
+            <div id="messagePanel">
+                <input type="text" placeholder="Write your text here!" id="inputMessage">
+                <button id="sendButton">send</button>
+            </div>
+        </div>
+        <div id="newsBox" class="forumBox">
+            <p id="newsBox" class="boxName">News</p>
+            <div class="newsBlock">
+                <p class="newsTitle">Tech updates:</p>
+                <p class="newsText">-I made the news blocks in the center</p>
+            </div>
+            <div class="newsBlock">
+                <p class="newsTitle">Todo list:</p>
+                <p class="newsText">-make the design for message window</p>
+                <p class="newsText">-plan out, which of information will the messages contain</p>
+                <p class="newsText">-make the js code, that will send the text inside the input as a message</p>
+                <p class="newsText">-render the input data and the name of the user and the current time, when he sent the message</p>
+                <p class="newsText">-after that plan out, how the sql server will get that</p>
+            </div>
+        </div>
+        <div id="etcBox" class="forumBox">
+            <p class="boxName">Etc</p>
+            <p>Etc means something more will be here. Maybe the area will be eaten by something else >:) THE MESSAGES</p>
+        </div>
+    </div>
+</body>
+</html>
