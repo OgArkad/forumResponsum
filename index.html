@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum Responsum</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -14,12 +15,13 @@
             <p class="boxName">Chat</p>
 
             <select name="channel" id="channelsChat">
-                <option value="general">General</option>
+                <option value="general">General</option>    
                 <option value="answers">Answers</option>
                 <option value="memes">Memes</option>
                 <option value="adminPanel">admin</option>
             </select>
 
+            <div id="msgHistory" class="message-log"></div>
             <div class="message" id="msg1">
                 
             </div>
@@ -40,6 +42,33 @@
                 <p class="newsText">-create tagging system for messages</p>
                 <p class="newsText">-Finally start working on the database, but how? 1. supabase extension 2. just write the code here in VS code and paste it after into the supabase's site 2. Just make the frontend as best as possible</p>
                 <p class="newsText">-find inpiration for better looks of site(it's not very good right now, ik ik.)</p>
+                <p class="newsText">-Somehow connect the Supabase sql to the js(it's going to be easy work, I did it in the past, so it will be not hard to make it again.)</p>
+                <p class="newsText">-When it's going be done, I will do the up and down vote counter too(very easy, I just need to insert 1 more(what is the counter, and in local storage did the user rate it already))</p>
+            </div>
+        </div>
+    </div>
+    <div id="etcBoard">
+        <h1 id="etcBoardTitle">etcBoard</h1>
+        <div id="famousPeopleList">
+            <div id="azazin" class="honorableQuotes">
+                <p>“Каждый год будет только хуже предыдущего. Это факт...”</p>
+                <p>“Each year will only be worse than the one before it. That's a fact...”</p>
+                <p>Azazin</p>
+            </div>
+            <div class="honorableQuotes">
+                <p>“Without music, life would be a mistake.”</p>
+                <p>Friedrich Nietzsche</p>
+            </div>
+            <div class="honorableQuotes">
+                <p>“Good friends, good books, and a sleepy conscience: this is the ideal life.”</p>
+                <p>Mark Twain</p>
+            </div>
+            <div class="honorableQuotes">
+                <p>“Life is what happens to us while we are making other plans.”</p>
+                <p>Allen Saunders</p>
+            </div>
+            <div class="honorableQuotes">
+
             </div>
         </div>
     </div>

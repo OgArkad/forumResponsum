@@ -22,7 +22,7 @@ body{
     width: 30vw;
     height: 85vh;
 
-    border: 3px solid #030303;
+    /*border: 3px solid #030303;*/  
     border-radius: 30px;
 
     margin-right: 1vw;
@@ -41,9 +41,9 @@ body{
 #sendButton{
     background-color: blue;
     color: #ffffff;
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 1vw;
+    height: 2vw;
     width: 2vw;
     border: none;
 }
@@ -62,11 +62,11 @@ body{
 }
 
 .newsTitle{
-    font-weight: bolder;
+    font-weight:100;
 }
 
 .newsBlock{
-    border: 3px solid #030303;
+    /*border: 3px solid #030303;*/
     border-radius: 20px;
     width: 24vw;
     height: auto;
@@ -76,6 +76,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 15px;
     padding-left: 15px;
+    background-color: #ffffff;
 }
 
 #newsBox{
@@ -83,7 +84,7 @@ body{
 }
 
 .message{
-    border: 3px solid #030303;
+    /*border: 3px solid #030303;*/
     border-radius: 20px;
     /*width: 55vw;*/
     width: auto;
@@ -94,20 +95,23 @@ body{
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 15px;
+    background-color: white;
 }
 
 #channelsChat{
     position: absolute;
     left: 9%;
-    top: 6vw;
+    top: 5vw;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ffffff;
     color: black;
     border-radius: 5px;
     width: 5vw;
-    height: 2vh;
+    height: 3vh;
+    font-size: 1rem;
     text-align: center;
+    border: none;
 }
 
 .vote{
@@ -115,4 +119,24 @@ body{
     background-repeat: no-repeat;
     border: none;
     font-size: 1rem;
+}
+
+#etcBoard{
+    width: 98vw;
+    background-color: #F3ECE0;
+
+    border-radius: 30px;
+}
+
+.honorableQuotes{
+    margin-top: 3vh;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#etcBoardTitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
 }
