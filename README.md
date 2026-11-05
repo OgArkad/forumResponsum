@@ -5,10 +5,19 @@ A webbased app, that helps communication between the students in one school. Pro
 
 ## Features 
 
- - Here you can find news, text with other schoolers and prepare for the exams.
- - The database going to be based on supabase for messages and cloudflare for bigger files like photos and videos.
+ - Implemented chat function 
+ - Polls
+ - Photo and video exchange
+ - Able to share the tasks and anwers for exams
+
+## Why is it better than general messengers(Discord, Whatsapp, Viber, etc.):
+ - First place, this forum is orientated to schoolars, so it has feutures like easy docx or pdf uploading. 
+ - It has features, that makes sorting and publishing content much easier.
+ - The site will be closed to the public, only users with schoold email can sign in
 
 ## Roadmap
 
-- UI improvement
-- Make the database for the app
+ - Implement the existing database to the site
+ - Work on the design
+ - Make registration/login system for the site
+ - In future, make a template out of this site, so anybody can set and make his/her site for community 

@@ -101,7 +101,7 @@ body{
 #channelsChat{
     position: absolute;
     left: 9%;
-    top: 5vw;
+    top: 4.75vw;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ffffff;
@@ -126,6 +126,8 @@ body{
     background-color: #F3ECE0;
 
     border-radius: 30px;
+    padding-bottom: 3vh;
+    margin-left: 1vw;
 }
 
 .honorableQuotes{
