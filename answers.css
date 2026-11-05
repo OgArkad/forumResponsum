@@ -1,4 +1,22 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #3E3B59;
+}
+.block{
+    text-align: left;
+    width:25vw;
+    background-color: #F3ECE0;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    margin-left: 36vw;
+    padding-bottom: 20px;
+    box-shadow: 10px 5px 10px #2a2a2a;
+}
+.title{
+    font-weight: 600;
+}
+.block .author{
+    color: blue;
+    padding-left: 0px;
 }
