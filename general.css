@@ -12,7 +12,25 @@ body{
     margin-left: 36vw;
     padding-bottom: 20px;
     box-shadow: 10px 5px 10px #2a2a2a;
+    margin-bottom: 1vh;
 }
 .title{
     font-weight: 600;
+}
+
+#clickButton{
+    background-color: greenyellow;
+    color: green;
+    border: 3px solid green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 9vw;
+    height: 5vh;
+    font-size: 2rem;
+    border-radius: 20px;
+    margin-left: 45.5vw;
+    margin-top: 3vh;
+}
+
+#clickButton:hover{
+    background-color: rgb(124, 197, 14);
 }
