@@ -18,7 +18,6 @@ async function sendMessage() {
 
     localStorage.setItem("chat_username", username);
 
-    //show it instantly, the real one from the database is skipped by the id check
     showMessage(message, new Date().toISOString(), username, "temp_" + Date.now());
     userInput.value = "";
 
@@ -82,7 +81,7 @@ window.addEventListener("DOMContentLoaded", function () {
     loadMessages();
 });
 
-function formatDat1e(dateString) {
+function formatDate(dateString) {
     let date = new Date(dateString);
 
     let year = date.getFullYear();
