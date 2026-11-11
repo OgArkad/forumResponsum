@@ -3,31 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forum Responsum</title>
+    <title>Forum Responsum - polls</title>
     <link rel="stylesheet" href="general.css">
-    <script src="polls.js" defer></script>
+    <script type="module" src="polls.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
     <div class="block">
-        <p class="title">Your operator</p>
-        <p>Telekom ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ 50%</p>
-        <p>Yettel ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ 30%</p>
-        <p>DIGI ■■■■■■■■■■ 10%</p>
-        <p>One ■■■■■■■■■■ 10%</p>
-        <button class="voteButton">Vote</button>
+        <p id="test"></p>
     </div>
     <div class="block">
-        <p class="title">Your favorite car brand</p>
-        <p>BMW ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ 37%</p>
-        <p>Mercedes ■■■■■■■■■■■■■■■■■■■■■■■ 23%</p>
-        <p>Chevrolet ■■■■■■■■■■■■■■■ 15%</p>
-        <p>Toyota ■■■■■■ 6%</p>
-        <p>Ford ■■■■■■ 6%</p>
-        <p>Hyundai ■■■■■■ 6%</p>
-        <p>Volkswagen ■■■■■ 5%</p>
-        <p>Honda ■■ 2%</p>
-        <p>Nissan 0%</p>
-        <button class="voteButton">Vote</button>
+        <p id="test1"></p>
     </div>
+    <div class="block">
+        <p id="test2"></p>
+    </div>
+    <div id="result"></div>
 </body>
 </html>

@@ -12,7 +12,7 @@ let shownMessages = new Set();
 
 async function sendMessage() {
     let message = userInput.value.trim();
-    let username = nameInput.value.trim() || "Anonymous";
+    let username = "Anonymous";
 
     if (message === "") return;
 
@@ -23,7 +23,7 @@ async function sendMessage() {
 
     const { data, error } = await supabaseClient
         .from("messages")
-        .insert([{ text: message, username: username }])
+        .insert([{ text: message, author: username }])
         .select();
 
     if (error) {
@@ -47,7 +47,7 @@ function showMessage(text, createdAt, username, id) {
     entry.innerHTML = `
         <div class="timestamp">[${formatDate(createdAt)}]</div>
         <div class="message-text">
-            <span class="user-header">${username || "Anonymous"}: </span>
+            <span class="user-header">${username}: </span>
             <span>${text}</span>
         </div>
     `;

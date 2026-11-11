@@ -46,3 +46,9 @@ body{
 #clickButton:hover{
     background-color: rgb(124, 197, 14);
 } */
+pre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+pre:first-line{
+    font-weight: 700;
+}
