@@ -37,6 +37,17 @@ function renderPoll(data) {
     return result;
 }
 
+function createButton(){
+    const button = document.createElement("button");
+    button.innerHTML = "Vote";
+    button.style.color = "#ffffff";
+    button.style.fontSize = "1.15rem";
+    button.style.backgroundColor = "#9f60e8";
+    button.style.border = "none";
+    button.style.borderRadius = "5px";
+    return button;
+}
+
 const targetPollId = 'a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11'; 
 
 loadPoll(targetPollId).then(data => {
@@ -44,6 +55,7 @@ loadPoll(targetPollId).then(data => {
         const pre = document.createElement("pre");
         pre.textContent = renderPoll(data);
         document.getElementById("test").replaceChildren(pre);
+        document.getElementById("test").appendChild(createButton());
     } else {
         document.getElementById("test").innerHTML = "Failed to load poll.";
     }
@@ -56,6 +68,7 @@ loadPoll(targetPollId1).then(data => {
         const pre = document.createElement("pre");
         pre.textContent = renderPoll(data);
         document.getElementById("test1").replaceChildren(pre);
+        document.getElementById("test1").appendChild(createButton());
     } else {
         document.getElementById("test1").innerHTML = "Failed to load poll.";
     }
@@ -68,6 +81,8 @@ loadPoll(targetPollId2).then(data => {
         const pre = document.createElement("pre");
         pre.textContent = renderPoll(data);
         document.getElementById("test2").replaceChildren(pre);
+        document.getElementById("test2").appendChild(createButton());
+
     } else {
         document.getElementById("test2").innerHTML = "Failed to load poll.";
     }

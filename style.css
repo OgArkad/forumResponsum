@@ -171,3 +171,9 @@ body{
 .like:hover{
     color: red;
 }
+
+#logo{
+    position: absolute;
+    margin-left: 38.5vw;
+    margin-top: 0.25vh;
+}

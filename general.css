@@ -52,3 +52,13 @@ pre{
 pre:first-line{
     font-weight: 700;
 }
+
+#corrImg{
+    width: 25vw;
+    margin-left: 37.5vw;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline solid white;
+}
