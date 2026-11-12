@@ -62,3 +62,9 @@ h1{
     color: white;
     text-decoration: underline solid white;
 }
+button{
+    background-color: greenyellow;
+    color: green;
+    border: none;
+    height: 2vh;
+}

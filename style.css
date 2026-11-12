@@ -177,3 +177,15 @@ body{
     margin-left: 38.5vw;
     margin-top: 0.25vh;
 }
+
+#chatIcon{
+    position: absolute;
+    margin-left: 23vw;
+    margin-top: 0.25vw;
+}
+
+#newsIcon{
+    position: absolute;
+    margin-left: 11.5vw;
+    margin-top: 0.25vw;
+}

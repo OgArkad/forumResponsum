@@ -1,0 +1,7 @@
+<svg width="128" height="128"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <circle r="64" cx="64" cy="64" fill="aqua" />
+    <rect x="0" y="40" width="128" height="48" fill="red" />
+     <text x="8" y="76" font-size="40" fill="white">NEWS</text>
+</svg>
